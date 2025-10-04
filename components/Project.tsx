@@ -50,22 +50,22 @@ export default function Project({
 
             <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-300">
               {" "}
-              <Link
+              <a
                 href={projectUrl}
                 target="_blank"
                 className="w-full flex items-center gap-1  hover:underline underline-offset-2"
               >
-                <span className="break-keep">Code</span>
+                <span className="break-keep">Link</span>
 
                 <FaGithubSquare className="w-5 h-5" />
-              </Link>
+              </a>
               {demoUrl && (
                 <Link
                   href={demoUrl}
                   target="_blank"
                   className=" w-full flex items-center gap-1 hover:underline underline-offset-2"
                 >
-                  <span className="break-keep min-w-[4.5rem]">Live demo</span>
+                  <span className="break-keep min-w-[1.5rem]">Works</span>
                   <FiExternalLink className="w-5 h-5 " />
                 </Link>
               )}

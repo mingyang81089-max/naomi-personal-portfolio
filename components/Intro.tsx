@@ -78,7 +78,7 @@ export default function Intro() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-center"
         >
           <h1 className="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
             {t("name")}
@@ -96,13 +96,13 @@ export default function Intro() {
             >
               <TypeAnimation
                 sequence={[
-                  "Frontend Developer",
+                  "Uncharted Continent",
                   1000,
-                  "Full Stack Developer",
+                  "Constantly Expanding My Borders",
                   1000,
                 ]}
                 wrapper="span"
-                speed={50}
+                speed={35}
                 repeat={Infinity}
               />
             </h2>
@@ -143,7 +143,7 @@ export default function Intro() {
           href={
             activeLocale == "en"
               ? "/joy-fullstack-resume.pdf"
-              : "/前端开发-彭郁洁.pdf"
+              : "/CV.pdf"
           }
           locale={false}
         >
@@ -152,27 +152,10 @@ export default function Intro() {
         </Link>
         <a
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/joy-yujiepeng/"
+          href="https://www.linkedin.com/in/ming-yang-b37437388/"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
-
-        <a
-          className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Codefreyy"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
-        <a
-          className=" bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://blog-joy-peng.netlify.app"
-          target="_blank"
-        >
-          {t("blog")}
-
-          {/* <FaGithubSquare /> */}
         </a>
       </motion.div>
     </section>

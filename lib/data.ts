@@ -37,84 +37,114 @@ export const links = [
 
 
 export const headerLanguageMap = {
-    Home: '首页',
-    About: '关于我',
-    Projects: '我的项目',
-    Skills: '我的技能',
-    Experiences: '我的经历',
+    Home: 'Home',
+    About: 'About',
+    Projects: 'Projects',
+    Skills: 'Skills',
+    Experiences: 'Experiences',
 }
 
 export const experiencesData = [
     {
-        title: "MSc in Computing and IT",
-        location: "University of St Andrews, UK",
+        title: "MA Digital Media: Critical Studies",
+        location: "University College London, UK",
         description:
-            "Achieved a Master's degree in Computing and IT, acquiring in-depth knowledge in areas such as Human Computer Interaction, Computer Communication Systems, and Information Security. Developed strong capabilities in computational thinking, user-centred design, and data visualisation, preparing for effective application in technology-driven environments",
+            "Achieved a Master's degree in Digital Media, acquiring in-depth knowledge in areas such as Social Media Marketing, Mobile Media Studies, and Games. Developed strong capabilities in content creation and promotion, preparing for effective application in Media Industry",
         icon: React.createElement(LuGraduationCap),
-        date: "2023 Sep - 2024 May",
+        date: "2025 Sep - 2027 Jan",
     },
     {
-        title: "Frontend Intern",
+        title: "Account Executive Intern",
+        location: "Dayu Digital Culture Technology Group",
+        description:
+            "Served as a key client support within the MCN Business Division's Channel Operations team, managing the end-to-end process for brand partnership campaigns; Orchestrated influencer selection and optimization by analyzing partner portfolios and aligning creator strengths with client marketing objectives.",
+        icon: React.createElement(FaReact),
+        date: "2025 May - 2025 Sep",
+    },
+    {
+        title: "TMT & Auto PR Intern",
         location: React.createElement("span", {},
             React.createElement("a", {
                 href: "https://www.nio.com/",
                 style: { textDecoration: 'underline' },
                 target: "_blank"
-            }, "NIO Inc."),
-            " Wuhan, China"
+            }, "Burson-Marsteller"),
+            " Beijing, China"
         ),
         description:
-            "Developed NIO's third-generation station list and detail pages using Vue3, TypeScript, and Baidu Maps API. Implemented role-based access control for the Task Wizard page, enhancing system security. Collaborated effectively within a Jira-managed environment, utilizing Jenkins for deployment processes.",
+            " Assisted in establishing and maintaining good relationships with target media; followed up on media enquiries and assisted in arranging interview activities; Wrote press releases, media invitations and other public relations materials; participated in the planning and executing of creative of public relations activities; Collected industry trend information and provided customers with market insight reports; monitored public opinion and provided timely feedback to the team on potential crises.",
         icon: React.createElement(FaVuejs),
-        date: "2022 Aug - 2022 Dec",
+        date: "2024 Jul - 2024 Oct",
     },
     {
-        title: "Frontend Assistant",
-        location: "Wuhan University | Wuhan, China",
+        title: "Video Journalist Intern",
+        location: "China Media Group YuYuan TanTian Studio",
         description:
-            "Developed and maintained Finknow, a Financial Knowledge Graph Query and Analysis Platform using umi (React framework) and Ant Design Pro. Utilized graphin, a React toolkit for graph analysis based on G6, to develop an Equity Network Penetration Graph, enhancing data visualization capabilities.",
+            " Planned and explored short video themes with user needs and commercial potential, participated in the creative execution of original programs, maintained and managed video library and creative library; Assisted the director in writing and executing the script, followed up the shooting process, and participated in the whole process from news material collection to video packaging; Fully responsible for producing short video content for the account on social platforms such as TikTok, Weibo and WeChat.",
         icon: React.createElement(FaReact),
-        date: "2022 May - 2022 July",
+        date: "2024 Jan - 2024 May",
     },
     {
-        title: "BA in Digital Publishing",
+        title: "Social Media Marketing Intern",
+        location: "Meituan",
+        description:
+            " Tracked platform competitive product information, analyzed network traffic data, and continuously optimized operational strategies; Participated in the operation practice of new media platforms such as Weibo and XiaoHongshu, and managed daily online operation activities;",
+        icon: React.createElement(FaReact),
+        date: "2022 Aug - 2022 Sep",
+    },
+    {
+        title: "Bachelor of Arts in Radio and Television Science",
         location: "Wuhan University, China",
         description:
-            "Graduated with a Bachelor of Arts in Digital Publishing, securing a GPA of 3.81/4.0. Gained foundational knowledge in digital media and publishing technologies.",
+            "Graduated with a BA in Radio and Television Science, securing a GPA of 3.83/4.0. Gained foundational knowledge in audio and video production.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019 Sep - 2023 Jun",
+        date: "2021 Sep - 2025 Jun",
     },
 
 ]
 
 export const experiencesDataZn = [
     {
-        "title": "计算机与信息技术硕士",
-        "location": "英国圣安德鲁斯大学",
-        "description": "在人机交互、计算机通信系统和信息安全等领域深入学习。培养了计算思维、以用户为中心的设计和数据可视化方面的强大能力，预计以一等学位毕业（GPA17/20）。",
+        "title": "MA Digital Media: Critical Studies",
+        "location": "University College London, UK",
+        "description": "Achieved a Master's degree in Digital Media, acquiring in-depth knowledge in areas such as Social Media Marketing, Mobile Media Studies, and Games. Developed strong capabilities in content creation and promotion, preparing for effective application in Media Industry",
         icon: React.createElement(LuGraduationCap),
-        "date": "2023年9月 - 2024年12月"
+        "date": "2025 Sep - 2027 Jan"
     },
     {
-        "title": "前端实习生",
-        "location": "蔚来汽车（中国武汉）",
-        "description": `参与团队多个平台的迭代开发，独立完成内部告警平台的值班表页面开发。协助开发蔚来第三代场站列表与详情页，集成百度地图 API 实现定位与选点功能。优化任务魔棒页面，新增管理员角色，重构权限管理逻辑，用头像列表展示管理员，并整合飞书 API 实现消息发送。自定义 Element-UI 级联选择组件，解决全选德国 2000+ 城市时浏览器卡死问题，通过懒加载优化显著提升性能。遵循 Agile/Scrum 开发流程，进行两周一迭代，通过 Jira 跟进项目需求，设计技术方案，并与测试、后端、产品及 设计团队密切对接。`,
-        "icon": React.createElement(FaVuejs),
-        "date": "2022年8月 - 2022年12月"
-    },
-    {
-        "title": "前端开发",
-        "location": "武汉大学大数据研究院",
-        "description": "使用umi（React框架）和Ant Design Pro开发和维护Finknow，一个金融知识图谱查询和分析平台。利用基于G6的React图分析工具包graphin开发了股权网络穿透图，增强了数据可视化功能。",
+        "title": "Account Executive Intern",
+        "location": "Dayu Digital Culture Technology Group",
+        "description": "Served as a key client support within the MCN Business Division's Channel Operations team, managing the end-to-end process for brand partnership campaigns; Orchestrated influencer selection and optimization by analyzing partner portfolios and aligning creator strengths with client marketing objectives.",
         "icon": React.createElement(FaReact),
-        "date": "2022年5月 - 2022年8月"
+        "date": "2025 May - 2025 Sep"
     },
     {
-        "title": "数字出版学士",
-        "location": "武汉大学",
-        "description": "以3.81/4.0的GPA毕业，获得数字出版学士学位，掌握了数字媒体和出版技术的基础知识。",
+        "title": "TMT & Auto PR Intern",
+        "location": "Burson-Marsteller-Beijing",
+        "description": ` Assisted in establishing and maintaining good relationships with target media; followed up on media enquiries and assisted in arranging interview activities; Wrote press releases, media invitations and other public relations materials; participated in the planning and executing of creative of public relations activities; Collected industry trend information and provided customers with market insight reports; monitored public opinion and provided timely feedback to the team on potential crises.`,
+        "icon": React.createElement(FaVuejs),
+        "date": "2024 Jul - 2024 Oct"
+    },
+    {
+        "title": "Video Journalist Intern",
+        "location": "China Media Group YuYuan TanTian Studio",
+        "description": "Planned and explored short video themes with user needs and commercial potential, participated in the creative execution of original programs, maintained and managed video library and creative library; Assisted the director in writing and executing the script, followed up the shooting process, and participated in the whole process from news material collection to video packaging; Fully responsible for producing short video content for the account on social platforms such as TikTok, Weibo and WeChat.",
+        "icon": React.createElement(FaReact),
+        "date": "2024 Jan - 2024 May"
+    },
+    {
+        "title": "Social Media Marketing Intern",
+        "location": "Meituan",
+        "description": "Tracked platform competitive product information, analyzed network traffic data, and continuously optimized operational strategies; Participated in the operation practice of new media platforms such as Weibo and XiaoHongshu, and managed daily online operation activities.",
+        "icon": React.createElement(FaVuejs),
+        "date": "2022 Aug - 2022 Sep"
+    },
+    {
+        "title": "Bachelor of Arts in Radio and Television Science",
+        "location": "Wuhan University, China",
+        "description": "Graduated with a BA in Radio and Television Science, securing a GPA of 3.83/4.0. Gained foundational knowledge in audio and video production.",
         "icon": React.createElement(LuGraduationCap),
-        "date": "2019年9月 - 2023年6月"
+        "date": "2021 Sep - 2025 Jun"
     }
 ]
 
@@ -123,72 +153,70 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
-        "title": "Ethical Digital Nation Collaborative Platform",
-        "title_zh": "数字道德国家协作平台",
+        "title": "Social Media Wrks",
+        "title_zh": "China Media Group YuYuan TanTian Studio",
         "description":
             "A collaborative platform enhancing cooperation among Scottish higher education institutions in digital ethics.",
-        "desc_zh": "旨在促进苏格兰高校在数字道德领域合作的协作平台。该平台集成用户访谈、工作坊、OAuth登录、最新数字博客RSS feed显示、完备的事件管理系统（包含高级评分与评论功能）以及注重可访问性的响应式设计。",
-        "tags": ["React", "Next.js 14", "TypeScript", "TailwindCSS", "Convex", "Clerk"],
+        "desc_zh": "Responsible for the entire process of content production for the social short video category of the account, including news material collection, event library organization, content planning, video packaging, and content quality control.",
+        "tags": ["Social Media", "Journalism", "Video production", "Screen Writing"],
         "imageUrl": knowledgeSharingPlatformImage,
-        "projectUrl": "https://github.com/Codefreyy/Ethical-Digital-Nation",
-        "demoUrl": "https://yujie-ethical-digital-nation.netlify.app/"
+        "projectUrl": "https://x.com/YuyuanTantian",
+        "demoUrl": "https://www.canva.cn/design/DAG00O70FQE/GKcPk27J2bjkAJ3RW8Re6A/view?utm_content=DAG00O70FQE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he6459d581a"
     },
     {
-        title: "Typing Speed",
-        title_zh: '打字测验',
+        title: "Media",
+        title_zh: 'The 40th anniversary video of the School of Journalism and Communication, Wuhan University',
         description:
-            "A comprehensive typing speed test application that tracks your overall typing performance. It provides detailed statistics, including total words typed, errors made, and accuracy rate, allowing users to monitor their progress and improve their typing efficiency.",
-        desc_zh: "一个打字速度测试应用。敲击即开始打字，计时结束后将显示总敲击单词数、正确率、错误率等。该应用UI简洁现代，支持Dark Mode切换。",
-        tags: ["React", "TypeScript", "Tailwind", 'Framer Motion'],
+            "Participated in on-site interviews and shooting to ensure that the shooting content conforms to the planning plan and conveys the core spirit of the project; The work was selected into the list of outstanding works of 2023-2024 by the Chinese Collegial Association for Visual Art.",
+        desc_zh: "The work was selected into the list of outstanding works of 2023-2024 by the Chinese Collegial Association for Visual Art.",
+        tags: ["Videography", "Execution", "Content Creation"],
         imageUrl: typingSpeedImage,
-        projectUrl: 'https://github.com/Codefreyy/typing-speed-game',
-        demoUrl: 'https://joy-typing-speed.netlify.app/',
+        projectUrl: 'https://www.bilibili.com/video/BV1Fj411E77a/?spm_id_from=333.337.search-card.all.click&vd_source=a1e8afd816b793fff0e1a9cb0bd82e42',
+        demoUrl: 'https://www.canva.cn/design/DAG00GLUzy0/4BOf_aHafq2iuHK4qkfl3Q/view?utm_content=DAG00GLUzy0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2253e157d9',
     },
     {
-        title: "Breddit",
-        title_zh: "社交新闻论坛",
+        title: "Magic Data",
+        title_zh: "Magic Data",
         description:
             `A modern full-stack Reddit clone with infinite scrolling, secure NextAuth Google authentication, and a custom feed for authenticated users. It uses Upstash Redis for caching and React-Query for efficient, responsive data fetching with optimistic updates.
             `,
-        desc_zh: "一个现代且简洁的Reddit克隆项目，使用Next.js、TypeScript和Tailwind CSS构建。项目功能包括无限滚动动态加载帖子、NextAuth与Google认证、为认证用户提供自定义Feed、高级缓存、乐观更新、React-Query数据获取、美观的帖子编辑器、图片上传和链接预览、以及完整的评论功能。",
-        tags: ["Next.js", "TypeScript", "Upstash", "React-Query", "TailwindCSS"],
+        desc_zh: "MAGIC DATA is the entrepreneurial project I participated in. The team jointly designed a big data live-streaming e-commerce precision marketing platform. This project participated in the Innovation and Entrepreneurship Competition and won the third prize.",
+        tags: ["Business Strategy", "Marketing", "Innovation"],
         imageUrl: breadditImage,
-        projectUrl: 'https://github.com/Codefreyy/Breddit',
-        demoUrl: 'https://joy-breddit.vercel.app/',
+        projectUrl: 'https://www.canva.cn/design/DAG00WPgkjE/URxxHlzA68aLexHiQYLX3g/view?utm_content=DAG00WPgkjE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he61bc552bd',
+        demoUrl: 'https://www.canva.cn/design/DAG00d9Yg_U/_yCeEqfYQ-8a8MNmJ_m6Qg/view?utm_content=DAG00d9Yg_U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h01468d3d20',
     },
     {
-        title: "Global Wealth Spectrum Visualisation",
-        title_zh: '世界财富可视化光谱',
+        title: "Stray Hearts: A Call for Compassion",
+        title_zh: 'Stray Hearts: A Call for Compassion',
         description: "This interactive visualization explores how tax policies influence wealth, how industries impact fortunes differently by gender, and how these effects vary across continents. Dive into our data to uncover the complex layers of global wealth.",
-        desc_zh: "交互式可视化图表探讨了税收政策如何影响财富、不同行业对不同性别的财富的影响以及这些影响在各大洲之间的差异。深入了解我们的数据，揭示全球财富的复杂层次。",
-        tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
+        desc_zh: "Participated in on-site interviews and filming, and directly interacted with stray animals and their carers to collect touching stories;Responsible for video editing and packaging, enhancing the narrative structure and emotional expression of the documentary through careful editing and visual design.",
+        tags: ["Vedio Editing", "Creative Writing"],
         imageUrl: visualizationImage,
-        projectUrl: 'https://github.com/Codefreyy/d3-evolution-visualisation',
-        demoUrl: 'https://global-wealth-spectrum.netlify.app/',
+        demoUrl: 'https://www.canva.cn/design/DAG00d9yCfQ/ir6uHUURcb5SNxHb412dyg/view?utm_content=DAG00d9yCfQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc9e74618a2',
     },
 
 
 ]
 
 export const skillsData = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next",
-    "Vue2",
-    "Vue3",
-    "Node",
-    "Express",
-    "Git",
-    "Github",
-    "Tailwind",
-    "Chakra UI",
-    "Boostrap",
-    "Prisma",
-    "MongoDB",
-    "Framer Motion",
-    "d3",
-    "UI/UX"
+    "Teamwork",
+    "Graphic Design",
+    "Videography",
+    "Video Editing",
+    "Adaptability",
+    "Growth Mindset",
+    "Multitasking",
+    "Creativity",
+    "Data Analysis",
+    "Leadership",
+    "Negotiation",
+    "Screenwriting",
+    "AI",
+    "Podcasting",
+    "Creative Writing",
+    "Marketing",
+    "Photography",
+    "Programming",
+    "Resilience",
 ] 

@@ -31,7 +31,7 @@ export default function Projects() {
       <Link
         className="group tracing-wide font-semibold hover:underline hover:underline-offset-4 hover:decoration-pink text-slate-800 dark:text-slate-400 w-full flex gap-1 items-center justify-center mt-10"
         target="_blank"
-        href="https://github.com/Codefreyy?tab=repositories"
+        href="https://www.canva.cn/design/DAGKP6aMRr8/FLQfi4g99f5jhX67G1X_JQ/view?utm_content=DAGKP6aMRr8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a0c917566"
       >
         View All Projects
         <FaAngleRight className="group-hover:translate-x-2 transition" />

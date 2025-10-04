@@ -1,10 +1,9 @@
 {
     "IntroSection": {
-        "hello_im": "你好，我是",
-        "name": "彭郁洁",
-        "short_intro": "我享受搭建项目的乐趣！",
-        "download_cv": "下载简历",
-        "blog": "个人博客"
+        "hello_im": "Hello, I am",
+        "name": "   Yang Ming",
+        "short_intro": "A versatile leaner adapting to all challenges",
+        "download_cv": "Download CV"
     },
     "SectionName": {
         "about": "",
