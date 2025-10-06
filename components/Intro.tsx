@@ -109,12 +109,6 @@ export default function Intro() {
           </div>
         </motion.div>
         <p>{t("short_intro")}</p>
-        {activeLocale === "en" && (
-          <p>
-            My focus is{" "}
-            <span className="italic font-bold">React (Next.js)</span>.
-          </p>
-        )}
       </motion.h1>
 
       <motion.div
@@ -142,7 +136,7 @@ export default function Intro() {
           className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href={
             activeLocale == "en"
-              ? "/joy-fullstack-resume.pdf"
+              ? "/CV.pdf"
               : "/CV.pdf"
           }
           locale={false}

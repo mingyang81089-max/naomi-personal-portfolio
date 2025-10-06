@@ -153,10 +153,10 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
-        "title": "Social Media Wrks",
+        "title": "China Media Group YuYuan TanTian Studio",
         "title_zh": "China Media Group YuYuan TanTian Studio",
         "description":
-            "A collaborative platform enhancing cooperation among Scottish higher education institutions in digital ethics.",
+            "Responsible for the entire process of content production for the social short video category of the account, including news material collection, event library organization, content planning, video packaging, and content quality control.",
         "desc_zh": "Responsible for the entire process of content production for the social short video category of the account, including news material collection, event library organization, content planning, video packaging, and content quality control.",
         "tags": ["Social Media", "Journalism", "Video production", "Screen Writing"],
         "imageUrl": knowledgeSharingPlatformImage,
@@ -164,10 +164,10 @@ export const projectsData = [
         "demoUrl": "https://www.canva.cn/design/DAG00O70FQE/GKcPk27J2bjkAJ3RW8Re6A/view?utm_content=DAG00O70FQE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he6459d581a"
     },
     {
-        title: "Media",
+        title: "The 40th anniversary video of the School of Journalism and Communication, Wuhan University",
         title_zh: 'The 40th anniversary video of the School of Journalism and Communication, Wuhan University',
         description:
-            "Participated in on-site interviews and shooting to ensure that the shooting content conforms to the planning plan and conveys the core spirit of the project; The work was selected into the list of outstanding works of 2023-2024 by the Chinese Collegial Association for Visual Art.",
+            "The work was selected into the list of outstanding works of 2023-2024 by the Chinese Collegial Association for Visual Art.",
         desc_zh: "The work was selected into the list of outstanding works of 2023-2024 by the Chinese Collegial Association for Visual Art.",
         tags: ["Videography", "Execution", "Content Creation"],
         imageUrl: typingSpeedImage,
@@ -178,7 +178,7 @@ export const projectsData = [
         title: "Magic Data",
         title_zh: "Magic Data",
         description:
-            `A modern full-stack Reddit clone with infinite scrolling, secure NextAuth Google authentication, and a custom feed for authenticated users. It uses Upstash Redis for caching and React-Query for efficient, responsive data fetching with optimistic updates.
+            `MAGIC DATA is the entrepreneurial project I participated in. The team jointly designed a big data live-streaming e-commerce precision marketing platform. This project participated in the Innovation and Entrepreneurship Competition and won the third prize.
             `,
         desc_zh: "MAGIC DATA is the entrepreneurial project I participated in. The team jointly designed a big data live-streaming e-commerce precision marketing platform. This project participated in the Innovation and Entrepreneurship Competition and won the third prize.",
         tags: ["Business Strategy", "Marketing", "Innovation"],
@@ -189,7 +189,7 @@ export const projectsData = [
     {
         title: "Stray Hearts: A Call for Compassion",
         title_zh: 'Stray Hearts: A Call for Compassion',
-        description: "This interactive visualization explores how tax policies influence wealth, how industries impact fortunes differently by gender, and how these effects vary across continents. Dive into our data to uncover the complex layers of global wealth.",
+        description: "Participated in on-site interviews and filming, and directly interacted with stray animals and their carers to collect touching stories;Responsible for video editing and packaging, enhancing the narrative structure and emotional expression of the documentary through careful editing and visual design.",
         desc_zh: "Participated in on-site interviews and filming, and directly interacted with stray animals and their carers to collect touching stories;Responsible for video editing and packaging, enhancing the narrative structure and emotional expression of the documentary through careful editing and visual design.",
         tags: ["Vedio Editing", "Creative Writing"],
         imageUrl: visualizationImage,
